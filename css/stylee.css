@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(55, 55, 242);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    background-color: red;
+    color: white;
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none; 
+}
+
+/* seccion 1 */
+.lorem-container {
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+}
+
+.escudo img{
+    width: 82%;
+    height: 82%;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+/* seccion 2 */
+.contenedor {
+    background-color: rgb(55, 55, 242);
+    width: 350px;
+    height: 180px;
+    text-align: center;
+    color: yellow;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.olivol {
+    width: 120px;
+    height: 90px;
+    margin-left: 40px;
+}
+
+.marne {
+    width:120px;
+    height: 90px;
+}
+
+
+/* seccion 3 */
+.jugadores img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.jugadores2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: block;
+}
+
+
+.jugadores-contenedor {
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* footer */
+.pie-pagina {
+    background-color: rgb(55, 55, 242);
+    color: white;
+    height: 10vh;
+    /* margin-top: 10px; */
+    padding-top: 15px;
+    align-items: center;
+    justify-content: start;
+}
+
+
+/* media queries */
+@media screen and (max-width: 767px){
+    .navbar-brand {
+        display: none;
+    }
+}   
+
+
+
+
