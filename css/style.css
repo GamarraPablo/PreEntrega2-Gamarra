@@ -14,25 +14,39 @@
 
 .nav-link {
     background-color: red;
-    color: white;
+    color: white !important;
     margin: 2px;
     border: 1px solid white;
     border-radius: 5px;
     text-decoration: none; 
 }
 
+/* PAGINA INICIO */
 /* seccion 1 */
 .lorem-container {
     background-color: red;
     color: white;
     margin-top: 50px;
+    padding-left: 15px;
 }
 
 .escudo img{
     width: 82%;
     height: 82%;
     margin-top: 50px;
-    margin-left: 60px;
+    margin-left: 30px;
+}
+
+.whatsapp {
+    width: 18vw;
+    height: 18vh;
+    border-radius: 15px;
+    float: right;
+    background-color: green; 
+}
+
+.fixed-bottom {
+    margin-right: 100px;
 }
 
 /* seccion 2 */
@@ -60,7 +74,6 @@
     height: 90px;
 }
 
-
 /* seccion 3 */
 .jugadores img {
     width: 100%;
@@ -75,25 +88,42 @@
     display: block;
 }
 
-
 .jugadores-contenedor {
+    width: 100vw;
     margin-bottom: 60px;
     align-items: center;
     justify-content: center;
 }
 
+/* PAGINA EL CLUB */
+.equipo {
+    margin-left: 150px;
+}
 
 /* footer */
 .pie-pagina {
     background-color: rgb(55, 55, 242);
     color: white;
-    height: 10vh;
-    /* margin-top: 10px; */
+    width: 100vw;
+    height: 120px;
+    text-align: center;
     padding-top: 15px;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
 }
 
+
+footer ul li {
+    display: inline-block;  
+}
+
+.icons {
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    color: white;
+    list-style-type: none;
+}
 
 /* media queries */
 @media screen and (max-width: 767px){
