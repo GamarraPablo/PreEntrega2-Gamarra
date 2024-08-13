@@ -18,7 +18,7 @@
     margin: 2px;
     border: 1px solid white;
     border-radius: 5px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 h2 {
@@ -30,8 +30,8 @@ h2 {
 /* PAGINA ACTIVIDADES */
 .actividades {
     width: 500px;
-    margin-top: 50px; 
-    margin-bottom: 50px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -39,24 +39,14 @@ h2 {
 .slide {
     width: 500px;
     height: 200px;
+    margin-bottom: 300px;
 }
 
-.cards {
-    margin-top: 350px;
-    margin-bottom: 50px;
-    height: 85vh;
-    text-align: center;
-}
-
-.card-img-top {
-    width: 400px;
-    height: 400px;
-}
- 
-/* .slide img {
-    height: 65vh;  
+/* .container {
+    display:;
 } */
 
+/* PAGINA ACTIVIDADES */
 .actividades li a {
     text-decoration: none;
     color: white;
@@ -91,13 +81,14 @@ h2 {
     height: 120px;
     text-align: center;
     padding-top: 15px;
-    align-items: center;
-    justify-content: center;
+    margin-top: 50px;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 
 footer ul li {
-    display: inline-block;  
+    display: inline-block;
 }
 
 
@@ -115,7 +106,7 @@ footer ul li {
     .navbar-brand {
         display: none;
     }
-}   
+}
 
 
 
